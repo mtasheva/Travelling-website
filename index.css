@@ -9,6 +9,7 @@ header {
     background-position: 0% 68%;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 5em;
 }
 
 nav ul {
@@ -50,4 +51,73 @@ nav a:hover {
     background-color: whitesmoke;
     border: none;
     margin-top: 5em;
+}
+
+.info-us ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border: 1px solid #EDEEF0;
+}
+
+.info-us li {
+    border: 1px solid #EDEEF0;
+    padding: 5.25em 5.06em;
+}
+
+.info-us h1 {
+    margin-bottom: 2em;
+    font-size: 1.1em;
+    font-weight: 900;
+}
+
+.created-by p {
+    text-align: center;
+    color: #50586D;
+}
+
+.wrapper {
+    width: 80em;
+    margin: 0 auto;
+}
+
+.gallery ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery li {
+    flex: 0 0 24%;
+    height: 35.8em;
+    overflow: hidden;
+    text-align: center;
+}
+
+.gallery img {
+    width: 20.3em;
+    /*20.3*/
+    height: 20.em;
+    display: block;
+    overflow: hidden;
+}
+
+.gallery li span {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2.7em;
+}
+
+.gallery li h2 {
+    margin-top: 1.8em;
+}
+
+.gallery li a {
+    margin-top: 4.9em;
+    display: block;
+}
+
+.created-by p {
+    padding: 2em 0;
 }
